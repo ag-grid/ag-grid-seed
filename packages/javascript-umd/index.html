@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AG Grid</title>
+    <style>
+        :root,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="./node_modules/ag-grid-enterprise/dist/ag-grid-enterprise.js"></script>
+</head>
+<body>
+<div class="ag-theme-quartz" id="myGrid" style="height: 100%; width: 100%"></div>
+<script>
+    agGrid.LicenseManager.setLicenseKey("<your license key>")
+
+    const gridOptions = {
+        columnDefs: [
+            {field: "make"},
+            {field: "model"},
+            {field: "price"}
+        ],
+        rowData: [
+            {make: "Toyota", model: "Celica", price: 35000},
+            {make: "Ford", model: "Mondeo", price: 32000},
+            {make: "Porsche", model: "Boxster", price: 72000}
+        ],
+        defaultColDef: {
+            flex: 1,
+        },
+        statusBar: {
+            statusPanels: [
+                {
+                    statusPanel: 'agTotalAndFilteredRowCountComponent',
+                    align: 'left',
+                }
+            ]
+        },
+    }
+
+    let eGridDiv = document.querySelector('#myGrid');
+    agGrid.createGrid(eGridDiv, gridOptions);
+</script>
+</body>
+</html>

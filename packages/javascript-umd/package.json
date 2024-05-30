@@ -1,0 +1,11 @@
+{
+  "name": "ag-grid-packages-umd",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "ag-grid-enterprise": "latest"
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
+}
