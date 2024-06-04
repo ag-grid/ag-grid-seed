@@ -1,0 +1,25 @@
+{
+  "name": "ag-grid-modules-vite-typescript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ag-grid-community/core": "latest",
+    "@ag-grid-community/client-side-row-model": "latest",
+    "@ag-grid-community/styles": "latest",
+    "@ag-grid-charts-enterprise/core": "latest",
+    "@ag-grid-charts-enterprise/status-bar": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
+}

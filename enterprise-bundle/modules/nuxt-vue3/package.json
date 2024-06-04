@@ -1,0 +1,26 @@
+{
+  "name": "ag-grid-modules-nuxt-vue3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "@ag-grid-community/core": "latest",
+    "@ag-grid-community/client-side-row-model": "latest",
+    "@ag-grid-community/styles": "latest",
+    "@ag-grid-community/vue3": "latest",
+    "@ag-grid-charts-enterprise/core": "latest",
+    "@ag-grid-charts-enterprise/status-bar": "latest"
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
+}
