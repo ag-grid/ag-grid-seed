@@ -13,9 +13,9 @@
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
-    "ag-grid-vue3": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-enterprise": "latest"
+    "ag-grid-vue3": "^32.3.3",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-enterprise": "^32.3.3"
   },
   "author": "Sean Landsman <sean@thelandsmans.com>",
   "license": "MIT",

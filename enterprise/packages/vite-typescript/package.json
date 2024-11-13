@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ag-grid-community": "latest",
-    "ag-grid-enterprise": "latest"
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-enterprise": "^32.3.3"
   },
   "devDependencies": {
     "typescript": "^5.2.2",

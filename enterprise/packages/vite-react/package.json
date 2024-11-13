@@ -12,9 +12,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ag-grid-react": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-enterprise": "latest"
+    "ag-grid-react": "^32.3.3",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-enterprise": "^32.3.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

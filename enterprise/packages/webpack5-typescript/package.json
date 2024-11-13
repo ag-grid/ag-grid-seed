@@ -22,8 +22,8 @@
     "rimraf": "5.0.1"
   },
   "dependencies": {
-    "ag-grid-community": "latest",
-    "ag-grid-enterprise": "latest"
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-enterprise": "^32.3.3"
   },
   "author": "Sean Landsman <sean@thelandsmans.com>",
   "license": "MIT",

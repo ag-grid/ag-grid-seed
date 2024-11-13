@@ -1,4 +1,4 @@
-## Quickstart seed projects for on getting up and running with ag-Grid
+## Quickstart seed projects for on getting up and running with AG Grid up to v32
 
 ## How to use:
 * Navigate to the either  build tool you're interested, either [modules](https://www.ag-grid.com/javascript-data-grid/modules/) or [packages](https://www.ag-grid.com/javascript-data-grid/modules/) and then the Build Tool / CLI you're intersted in:

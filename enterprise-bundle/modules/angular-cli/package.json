@@ -21,12 +21,12 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3",
-    "@ag-grid-community/core": "latest",
-    "@ag-grid-community/client-side-row-model": "latest",
-    "@ag-grid-community/styles": "latest",
-    "@ag-grid-community/angular": "latest",
-    "@ag-grid-charts-enterprise/core": "latest",
-    "@ag-grid-charts-enterprise/status-bar": "latest"
+    "@ag-grid-community/core": "^32.3.3",
+    "@ag-grid-community/client-side-row-model": "^32.3.3",
+    "@ag-grid-community/styles": "^32.3.3",
+    "@ag-grid-community/angular": "^32.3.3",
+    "@ag-grid-charts-enterprise/core": "^32.3.3",
+    "@ag-grid-charts-enterprise/status-bar": "^32.3.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.7",

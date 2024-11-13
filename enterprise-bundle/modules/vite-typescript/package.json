@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ag-grid-community/core": "latest",
-    "@ag-grid-community/client-side-row-model": "latest",
-    "@ag-grid-community/styles": "latest",
-    "@ag-grid-charts-enterprise/core": "latest",
-    "@ag-grid-charts-enterprise/status-bar": "latest"
+    "@ag-grid-community/core": "^32.3.3",
+    "@ag-grid-community/client-side-row-model": "^32.3.3",
+    "@ag-grid-community/styles": "^32.3.3",
+    "@ag-grid-charts-enterprise/core": "^32.3.3",
+    "@ag-grid-charts-enterprise/status-bar": "^32.3.3"
   },
   "devDependencies": {
     "typescript": "^5.2.2",

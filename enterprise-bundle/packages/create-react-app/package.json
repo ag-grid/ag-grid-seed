@@ -10,9 +10,9 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "ag-grid-react": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-charts-enterprise": "latest"
+    "ag-grid-react": "^32.3.3",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-charts-enterprise": "^32.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
