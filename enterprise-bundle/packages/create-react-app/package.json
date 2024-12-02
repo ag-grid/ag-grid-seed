@@ -14,6 +14,9 @@
     "ag-grid-enterprise": "latest",
     "ag-charts-enterprise": "latest"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
