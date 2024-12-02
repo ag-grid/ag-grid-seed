@@ -25,8 +25,8 @@
     "@ag-grid-community/client-side-row-model": "^32.3.3",
     "@ag-grid-community/styles": "^32.3.3",
     "@ag-grid-community/angular": "^32.3.3",
-    "@ag-grid-charts-enterprise/core": "^32.3.3",
-    "@ag-grid-charts-enterprise/status-bar": "^32.3.3"
+    "@ag-grid-enterprise/core": "^32.3.3",
+    "@ag-grid-enterprise/status-bar": "^32.3.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.7",
