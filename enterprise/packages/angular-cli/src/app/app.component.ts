@@ -2,9 +2,8 @@ import {Component, ViewEncapsulation} from '@angular/core';
 import {AgGridAngular} from 'ag-grid-angular';
 import {ColDef} from 'ag-grid-community';
 
-import "ag-grid-enterprise";
-
-import {LicenseManager} from "ag-grid-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule]);
 LicenseManager.setLicenseKey("<your license key>")
 
 @Component({

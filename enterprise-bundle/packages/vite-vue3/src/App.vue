@@ -1,9 +1,9 @@
 <script setup>
 import { AgGridVue } from "ag-grid-vue3"; // Vue Grid Logic
 
-import "ag-grid-charts-enterprise";
-
-import {LicenseManager} from "ag-grid-charts-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
 LicenseManager.setLicenseKey("<your license key>")
 
 const columnDefs = [

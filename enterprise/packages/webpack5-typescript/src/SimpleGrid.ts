@@ -1,8 +1,7 @@
 import {createGrid, GridOptions} from "ag-grid-community";
 
-import "ag-grid-enterprise";
-
-import {LicenseManager} from "ag-grid-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule]);
 LicenseManager.setLicenseKey("<your license key>")
 
 import './styles.scss';

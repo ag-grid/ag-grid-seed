@@ -2,9 +2,9 @@ import {Component, ViewEncapsulation} from '@angular/core';
 import {AgGridAngular} from 'ag-grid-angular';
 import {ColDef} from 'ag-grid-community';
 
-import "ag-grid-charts-enterprise";
-
-import {LicenseManager} from "ag-grid-charts-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
 LicenseManager.setLicenseKey("<your license key>")
 
 @Component({
