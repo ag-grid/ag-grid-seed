@@ -34,16 +34,14 @@ const statusBar = {
 
 <template>
   <ag-grid-vue
-      :rowData="rowData"
+      :rowData="rowData"      
       :columnDefs="columnDefs"
       style="height: 500px"
       :defaultColDef="defaultColDef"
       :statusBar="statusBar"
-      class="ag-theme-quartz">
+      enableCharts
+      :cellSelection="true"
+      loadThemeGoogleFonts>
   </ag-grid-vue>
 </template>
 
-<style>
-@import "ag-grid-community/styles/ag-grid.css";
-@import "ag-grid-community/styles/ag-theme-quartz.css";
-</style>
