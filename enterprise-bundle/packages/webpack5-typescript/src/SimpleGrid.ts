@@ -5,8 +5,6 @@ import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
 ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
 LicenseManager.setLicenseKey("<your license key>")
 
-import './styles.scss';
-
 class SimpleGrid {
     private readonly gridOptions: GridOptions = <GridOptions>{};
 
@@ -33,6 +31,9 @@ class SimpleGrid {
                     }
                 ]
             },
+            enableCharts: true,
+            cellSelection: true,
+            loadThemeGoogleFonts: true
         };
 
         const eGridDiv: HTMLElement = <HTMLElement>document.querySelector('#myGrid');

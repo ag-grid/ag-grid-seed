@@ -1,7 +1,5 @@
 import {createGrid, GridOptions} from "ag-grid-community";
 
-import './style.css'
-
 import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
 import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
 ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
@@ -33,6 +31,9 @@ class SimpleGrid {
                     }
                 ]
             },
+            enableCharts: true,
+            cellSelection: true,
+            loadThemeGoogleFonts: true
         };
 
         const eGridDiv: HTMLElement = <HTMLElement>document.querySelector('#app');

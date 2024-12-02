@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AgGridAngular } from 'ag-grid-angular';
-import { ColDef, themeQuartz } from 'ag-grid-community';
+import { ColDef } from 'ag-grid-community';
 
 import {
   AllEnterpriseModule,
@@ -19,7 +19,6 @@ LicenseManager.setLicenseKey('<your license key>');
   imports: [AgGridAngular],
   template: /*html*/ ` <ag-grid-angular
     style="height: 100%;"
-    [theme]="theme"
     [rowData]="rowData"
     [columnDefs]="colDefs"
     [defaultColDef]="defaultColDef"
@@ -31,7 +30,6 @@ LicenseManager.setLicenseKey('<your license key>');
   </ag-grid-angular>`,
 })
 export class AppComponent {
-  theme = themeQuartz;
   enableCharts = true;
   cellSelection = true;
   rowData = [
