@@ -2,11 +2,11 @@ import {Component, ViewEncapsulation} from '@angular/core';
 import {AgGridAngular} from '@ag-grid-community/angular';
 import {ColDef, ModuleRegistry} from '@ag-grid-community/core';
 import {ClientSideRowModelModule} from "@ag-grid-community/client-side-row-model";
-import {StatusBarModule} from "@ag-grid-charts-enterprise/status-bar";
+import {StatusBarModule} from "@ag-grid-enterprise/status-bar";
 
 ModuleRegistry.registerModules([ClientSideRowModelModule, StatusBarModule]);
 
-import {LicenseManager} from "@ag-grid-charts-enterprise/core";
+import {LicenseManager} from "@ag-grid-enterprise/core";
 LicenseManager.setLicenseKey("<your license key>")
 
 @Component({

@@ -1,12 +1,12 @@
 import {createGrid, GridOptions, ModuleRegistry} from "@ag-grid-community/core";
 import {ClientSideRowModelModule} from "@ag-grid-community/client-side-row-model";
-import {StatusBarModule} from "@ag-grid-charts-enterprise/status-bar";
+import {StatusBarModule} from "@ag-grid-enterprise/status-bar";
 
 ModuleRegistry.registerModules([ClientSideRowModelModule, StatusBarModule]);
 
 import './style.css'
 
-import {LicenseManager} from "@ag-grid-charts-enterprise/core";
+import {LicenseManager} from "@ag-grid-enterprise/core";
 LicenseManager.setLicenseKey("<your license key>")
 
 class SimpleGrid {

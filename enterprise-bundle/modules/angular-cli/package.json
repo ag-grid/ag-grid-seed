@@ -25,8 +25,8 @@
     "@ag-grid-community/client-side-row-model": "latest",
     "@ag-grid-community/styles": "latest",
     "@ag-grid-community/angular": "latest",
-    "@ag-grid-charts-enterprise/core": "latest",
-    "@ag-grid-charts-enterprise/status-bar": "latest"
+    "@ag-grid-enterprise/core": "latest",
+    "@ag-grid-enterprise/status-bar": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.7",
