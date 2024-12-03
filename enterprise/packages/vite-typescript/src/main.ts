@@ -1,7 +1,5 @@
 import {createGrid, GridOptions} from "ag-grid-community";
 
-import './style.css'
-
 import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
 ModuleRegistry.registerModules([AllEnterpriseModule]);
 LicenseManager.setLicenseKey("<your license key>")
@@ -32,6 +30,7 @@ class SimpleGrid {
                     }
                 ]
             },
+            loadThemeGoogleFonts: true,
         };
 
         const eGridDiv: HTMLElement = <HTMLElement>document.querySelector('#app');

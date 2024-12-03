@@ -38,11 +38,7 @@ const statusBar = {
       style="height: 500px"
       :defaultColDef="defaultColDef"
       :statusBar="statusBar"
-      class="ag-theme-quartz">
+      loadThemeGoogleFonts>
   </ag-grid-vue>
 </template>
 
-<style>
-@import "ag-grid-community/styles/ag-grid.css";
-@import "ag-grid-community/styles/ag-theme-quartz.css";
-</style>

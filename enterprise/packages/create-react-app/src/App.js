@@ -1,8 +1,6 @@
 import {useState} from 'react'
 
 import {AgGridReact} from 'ag-grid-react'; // React Data Grid Component
-import "ag-grid-community/styles/ag-grid.css"; // Mandatory CSS required by the grid
-import "ag-grid-community/styles/ag-theme-quartz.css"; // Optional Theme applied to the grid
 
 import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
 ModuleRegistry.registerModules([AllEnterpriseModule]);
@@ -37,7 +35,6 @@ function App() {
   return (
       <>
         <div
-            className="ag-theme-quartz" // applying the grid theme
             style={{height: "100%", width: "100%"}} // the grid will fill the size of the parent container
         >
           <AgGridReact
@@ -45,6 +42,7 @@ function App() {
               columnDefs={colDefs}
               defaultColDef={defaultColDef}
               statusBar={statusBar}
+              loadThemeGoogleFonts
           />
         </div>
       </>
