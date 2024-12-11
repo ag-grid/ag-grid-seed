@@ -11,8 +11,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "ag-grid-react": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-charts-enterprise": "latest"
+    "ag-grid-enterprise": "latest",
+    "ag-charts-enterprise": "latest"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,9 +1,9 @@
 <script setup>
 import { AgGridVue } from "ag-grid-vue3"; // Vue Grid Logic
 
-import "ag-grid-charts-enterprise";
-
-import {LicenseManager} from "ag-grid-charts-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
 LicenseManager.setLicenseKey("<your license key>")
 
 const columnDefs = [
@@ -39,11 +39,9 @@ const statusBar = {
       style="height: 500px"
       :defaultColDef="defaultColDef"
       :statusBar="statusBar"
-      class="ag-theme-quartz">
+      :enableCharts="true"
+      :cellSelection="true"
+      :loadThemeGoogleFonts="true">
   </ag-grid-vue>
 </template>
 
-<style>
-@import "ag-grid-community/styles/ag-grid.css";
-@import "ag-grid-community/styles/ag-theme-quartz.css";
-</style>

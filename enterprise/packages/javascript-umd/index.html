@@ -17,7 +17,7 @@
     <script src="./node_modules/ag-grid-enterprise/dist/ag-grid-enterprise.js"></script>
 </head>
 <body>
-<div class="ag-theme-quartz" id="myGrid" style="height: 100%; width: 100%"></div>
+<div id="myGrid" style="height: 100%; width: 100%"></div>
 <script>
     agGrid.LicenseManager.setLicenseKey("<your license key>")
 
@@ -43,6 +43,7 @@
                 }
             ]
         },
+        loadThemeGoogleFonts: true,
     }
 
     let eGridDiv = document.querySelector('#myGrid');

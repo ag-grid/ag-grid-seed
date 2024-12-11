@@ -22,7 +22,6 @@
     "rimraf": "5.0.1"
   },
   "dependencies": {
-    "ag-grid-community": "latest",
     "ag-grid-enterprise": "latest"
   },
   "author": "Sean Landsman <sean@thelandsmans.com>",

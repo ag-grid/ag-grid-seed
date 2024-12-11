@@ -1,13 +1,9 @@
 import {createGrid} from "ag-grid-community";
 
-import "ag-grid-charts-enterprise";
-
-import {LicenseManager} from "ag-grid-charts-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+import { AgChartsEnterpriseModule } from "ag-charts-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule.with(AgChartsEnterpriseModule)]);
 LicenseManager.setLicenseKey("<your license key>")
-
-// if using plain CSS:
-import 'ag-grid-community/styles/ag-grid.css';
-import 'ag-grid-community/styles/ag-theme-quartz.css';
 
 // if using sass (update webpack.config.js too):
 // import './styles.scss';
@@ -34,6 +30,9 @@ const gridOptions = {
             }
         ]
     },
+    enableCharts: true,
+    cellSelection: true,
+    loadThemeGoogleFonts: true
 }
 
 let eGridDiv = document.querySelector('#myGrid');

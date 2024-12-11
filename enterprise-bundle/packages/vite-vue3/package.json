@@ -11,8 +11,8 @@
   "dependencies": {
     "vue": "^3.4.21",
     "ag-grid-vue3": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-charts-enterprise": "latest"
+    "ag-grid-enterprise": "latest",
+    "ag-charts-enterprise": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

@@ -1,9 +1,8 @@
 <script setup>
 import { AgGridVue } from "ag-grid-vue3"; // Vue Grid Logic
 
-import "ag-grid-enterprise";
-
-import {LicenseManager} from "ag-grid-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule]);
 LicenseManager.setLicenseKey("<your license key>")
 
 const columnDefs = [
@@ -39,11 +38,6 @@ const statusBar = {
       style="height: 500px"
       :defaultColDef="defaultColDef"
       :statusBar="statusBar"
-      class="ag-theme-quartz">
+      >
   </ag-grid-vue>
 </template>
-
-<style>
-@import "ag-grid-community/styles/ag-grid.css";
-@import "ag-grid-community/styles/ag-theme-quartz.css";
-</style>

@@ -1,16 +1,8 @@
 import {createGrid} from "ag-grid-community";
 
-import "ag-grid-enterprise";
-
-import {LicenseManager} from "ag-grid-enterprise";
+import { AllEnterpriseModule, LicenseManager, ModuleRegistry } from "ag-grid-enterprise";
+ModuleRegistry.registerModules([AllEnterpriseModule]);
 LicenseManager.setLicenseKey("<your license key>")
-
-// if using plain CSS:
-import 'ag-grid-community/styles/ag-grid.css';
-import 'ag-grid-community/styles/ag-theme-quartz.css';
-
-// if using sass (update webpack.config.js too):
-// import './styles.scss';
 
 const gridOptions = {
     columnDefs: [
@@ -34,6 +26,7 @@ const gridOptions = {
             }
         ]
     },
+    loadThemeGoogleFonts: true,
 }
 
 let eGridDiv = document.querySelector('#myGrid');

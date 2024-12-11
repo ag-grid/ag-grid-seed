@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "ag-grid-charts-enterprise": "latest"
+    "ag-grid-enterprise": "latest",
+    "ag-charts-enterprise": "latest"
   },
   "author": "Sean Landsman <sean@thelandsmans.com>",
   "license": "MIT",
