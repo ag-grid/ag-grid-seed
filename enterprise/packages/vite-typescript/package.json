@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ag-grid-community": "latest",
     "ag-grid-enterprise": "latest"
   },
   "devDependencies": {

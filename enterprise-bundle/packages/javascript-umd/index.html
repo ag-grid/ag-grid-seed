@@ -14,7 +14,8 @@
             box-sizing: border-box;
         }
     </style>
-    <script src="./node_modules/ag-grid-charts-enterprise/dist/ag-grid-charts-enterprise.js"></script>
+    <script src="./node_modules/ag-grid-enterprise/dist/ag-grid-enterprise.min.js"></script>
+    <script src="./node_modules/ag-charts-enterprise/dist/umd/ag-charts-enterprise.min.js"></script>
 </head>
 <body>
 <div class="ag-theme-quartz" id="myGrid" style="height: 100%; width: 100%"></div>
@@ -43,6 +44,9 @@
                 }
             ]
         },
+        cellSelection: true,
+        enableCharts: true,
+        loadThemeGoogleFonts: true,
     }
 
     let eGridDiv = document.querySelector('#myGrid');

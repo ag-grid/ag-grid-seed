@@ -13,8 +13,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ag-grid-react": "latest",
-    "ag-grid-community": "latest",
-    "ag-grid-charts-enterprise": "latest"
+    "ag-grid-enterprise": "latest",
+    "ag-charts-enterprise": "latest"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
