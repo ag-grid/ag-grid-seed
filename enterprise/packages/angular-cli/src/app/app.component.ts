@@ -23,7 +23,6 @@ LicenseManager.setLicenseKey('<your license key>');
       [columnDefs]="colDefs"
       [defaultColDef]="defaultColDef"
       [statusBar]="statusBar"
-      loadThemeGoogleFonts
     >
     </ag-grid-angular>
   `,

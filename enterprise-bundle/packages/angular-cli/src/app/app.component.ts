@@ -25,7 +25,6 @@ LicenseManager.setLicenseKey('<your license key>');
     [statusBar]="statusBar"
     [enableCharts]="enableCharts"
     [cellSelection]="cellSelection"
-    loadThemeGoogleFonts
   >
   </ag-grid-angular>`,
 })
