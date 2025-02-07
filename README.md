@@ -17,6 +17,7 @@
 | Vite / Vue 3           | [AG Grid + Charts Enterprise Bundle](https://www.ag-grid.com/license-pricing/)  | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise-bundle/packages/vite-vue3)           |
 | Webpack 5 / JavaScript | [AG Grid + Charts Enterprise Bundle](https://www.ag-grid.com/license-pricing/)  | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise-bundle/packages/webpack5-javascript) |
 | Webpack 5 / TypeScript | [AG Grid + Charts Enterprise Bundle](https://www.ag-grid.com/license-pricing/)  | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise/packages/webpack5-typescript)        |
+| Next.js                | [AG Grid + Charts Enterprise Bundle](https://www.ag-grid.com/license-pricing/)  | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise-bundle/packages/create-next-app)     | 
 
 ## AG Grid Enterprise
 
@@ -35,4 +36,5 @@
 | Vite / Vue 3           | [AG Grid Enterprise](https://www.ag-grid.com/license-pricing/) | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise/packages/vite-vue3)                  |
 | Webpack 5 / JavaScript | [AG Grid Enterprise](https://www.ag-grid.com/license-pricing/) | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise/packages/webpack5-javascript)        |
 | Webpack 5 / TypeScript | [AG Grid Enterprise](https://www.ag-grid.com/license-pricing/) | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise/packages/webpack5-typescript)        |
+| Next.js                | [AG Grid Enterprise](https://www.ag-grid.com/license-pricing/) | [link](https://github.com/ag-grid/ag-grid-seed/tree/main/enterprise/packages/create-next-app)            |
 
