@@ -14,6 +14,9 @@
     "ag-grid-community": "latest",
     "ag-grid-enterprise": "latest"
   },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
