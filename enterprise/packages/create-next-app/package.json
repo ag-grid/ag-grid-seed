@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "ag-charts-enterprise": "^11.0.4",
-    "ag-grid-enterprise": "^33.0.4",
-    "ag-grid-react": "^33.0.4",
+    "ag-charts-community": "latest",
+    "ag-charts-enterprise": "latest",
+    "ag-grid-community": "latest",
+    "ag-grid-enterprise": "latest",
+    "ag-grid-react": "latest",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

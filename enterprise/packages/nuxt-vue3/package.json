@@ -14,6 +14,7 @@
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
     "ag-grid-vue3": "latest",
+    "ag-grid-community": "latest",
     "ag-grid-enterprise": "latest"
   },
   "author": "Sean Landsman <sean@thelandsmans.com>",

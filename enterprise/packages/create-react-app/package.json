@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "ag-grid-react": "latest",
+    "ag-grid-community": "latest",
     "ag-grid-enterprise": "latest"
   },
   "scripts": {
