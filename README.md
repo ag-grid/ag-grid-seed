@@ -1,6 +1,6 @@
 # Quickstart seed projects for getting up and running with AG Grid
 
-## AG Grid + AG Charts Enterprise Bundle
+## AG Grid + AG Charts Enterprise Bundle 
 
 * Navigate to the  Build Tool / CLI you're interested in:
 * `npm install`
