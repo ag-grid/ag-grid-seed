@@ -2,7 +2,7 @@
 
 ## AG Grid + AG Charts Enterprise Bundle
 
-* Navigate to the  Build Tool / CLI you're interested in:
+* Navigate to the  Build Tool / CLI you're interested in :
 * `npm install`
 * Development Build: `npm start` or `npm run dev`
 * Production Build: `npm run build`
